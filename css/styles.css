@@ -957,13 +957,13 @@ body {
   border: 2px solid var(--secondary-text-color);
   border-radius: 2px;
   cursor: pointer;
-  transition-property: background-color, border-width;
+  transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox:checked + .checkbox-icon {
-  border-width: 0;
+  border: none;
   background-color: var(--accent-color);
 }
 
